@@ -1,5 +1,4 @@
 import { InstagramLogoIcon, TwitterLogoIcon } from '@radix-ui/react-icons';
-import React from 'react'
 import { RiFacebookBoxLine, RiPinterestLine, RiTiktokLine, RiYoutubeLine } from 'react-icons/ri';
 import { PiArrowBendLeftUpBold } from 'react-icons/pi';
 

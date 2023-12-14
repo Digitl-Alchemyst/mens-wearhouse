@@ -1,10 +1,7 @@
-// ProductSlider.tsx
-
-import React from 'react';
 import BrandsCard from '@/c/cards/BrandsCard';
 
 interface BrandsSliderProps {
-  products: {
+  brands: {
     id: number;
     title: string;
     img: string;
@@ -13,11 +10,11 @@ interface BrandsSliderProps {
   directory: string;
 }
 
-const BrandsSlider: React.FC<BrandsSliderProps> = ({ products, directory }) => {
+const BrandsSlider: React.FC<BrandsSliderProps> = ({ brands, directory }) => {
   return (
     <div className='mb-8 flex items-center justify-center space-x-12'>
-      {products.map((product) => (
-        <BrandsCard key={product.id} {...product} directory={directory} />
+      {brands.map((brand) => (
+        <BrandsCard key={brand.id} {...brand} directory={directory} />
       ))}
     </div>
   );

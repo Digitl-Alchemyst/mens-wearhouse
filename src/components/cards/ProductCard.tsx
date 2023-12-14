@@ -1,7 +1,5 @@
-// ProductCard.tsx
-
 import Image from 'next/image';
-import React from 'react';
+import Link from 'next/link';
 
 interface ProductCardProps {
   id: number;
@@ -20,19 +18,18 @@ const ProductCard: React.FC<ProductCardProps> = ({
   directory,
   price,
 }) => {
-  const imagePath = `/${directory}/${img}`; // Adjust the path based on your project structure
-
+  const imagePath = `/${directory}/${img}`;
+  const path = `/${directory}/${url}`;
   return (
-    <div className='w-64'>
+    <Link href={path} className='w-64'>
       <div className='flex w-auto items-center justify-center rounded-sm border border-mwnavy-400/30 bg-mwblack-100/60 shadow-md shadow-mwblack-600/40'>
         <Image src={imagePath} alt={title} width={375} height={375} />
-        {/* Add other details as needed */}
       </div>
       <div className='mt-3 text-mwblack-500'>
         <h3>{title}</h3>
         <p className='mt-1'>${price}</p>
       </div>
-    </div>
+    </Link>
   );
 };
 

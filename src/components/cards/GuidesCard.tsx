@@ -1,9 +1,7 @@
-// ProductCard.tsx
-
 import Image from 'next/image';
-import React from 'react';
+import Link from 'next/link';
 
-interface GuidesSliderProps {
+interface GuidesCardProps {
   id: number;
   title: string;
   img: string;
@@ -12,34 +10,34 @@ interface GuidesSliderProps {
   description: string;
 }
 
-const GuidesSlider: React.FC<GuidesSliderProps> = ({
-  id,
+const GuidesCard: React.FC<GuidesCardProps> = ({
   title,
   img,
   url,
   directory,
   description,
 }) => {
-  const imagePath = `/${directory}/${img}`; // Adjust the path based on your project structure
+
+  const imagePath = `/${directory}/${img}`;
+  const path = `/${directory}/${url}`;
 
   return (
-    <div className='w-78 space-y-4'>
+    <Link href={path}className='w-78 space-y-4'>
       <div className='flex w-full items-center justify-center rounded-full '>
         <Image
           src={imagePath}
           alt={title}
           width={375}
           height={375}
-          className='border rounded-full border-mwnavy-400/30 bg-mwblack-100/60 shadow-md shadow-mwblack-600/40'
+          className='rounded-full border border-mwnavy-400/30 bg-mwblack-100/60 shadow-md shadow-mwblack-600/40'
         />
-        {/* Add other details as needed */}
       </div>
       <div className='mt-3 flex flex-col items-center justify-center text-mwblack-500'>
         <h3 className='text-lg'>{title}</h3>
         <p className='font-light text-mwblack-400'>{description}</p>
       </div>
-    </div>
+    </Link>
   );
 };
 
-export default GuidesSlider;
+export default GuidesCard;

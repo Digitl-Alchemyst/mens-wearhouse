@@ -1,10 +1,7 @@
-// ProductSlider.tsx
-
-import React from 'react';
 import GuidesCard from '@/c/cards/GuidesCard';
 
 interface GuideSliderProps {
-  products: {
+  guides: {
     id: number;
     title: string;
     img: string;
@@ -15,13 +12,13 @@ interface GuideSliderProps {
 }
 
 const GuideSlider: React.FC<GuideSliderProps> = ({
-  products,
+  guides,
   directory,
 }) => {
   return (
     <div className='flex justify-center items-center mb-8 space-x-12'>
-      {products.map((product) => (
-        <GuidesCard key={product.id} {...product} directory={directory} />
+      {guides.map((guide) => (
+        <GuidesCard key={guide.id} {...guide} directory={directory} />
       ))}
     </div>
   );

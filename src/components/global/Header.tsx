@@ -12,6 +12,7 @@ function Header() {
   return (
     <>
       <HolidayGiftGuide />
+
       {/* Main Header  */}
       <header className='flex w-full max-w-[1350px] flex-col items-center justify-center space-y-3 '>
         {/* Store Locator & Account  */}
@@ -42,17 +43,15 @@ function Header() {
           {/* Nav  */}
           <div className='text-mwblack-500 flex flex-col space-y-2 text-sm font-light mt-1'>
             {/* Text Logo  */}
-            <Link
-              href='/'
-            >
-            <Image
-              className=''
-              src='/TextLogo.png'
-              alt='Mens Wearhouse Text Logo'
-              width={250}
-              height={30}
-              />
-              </Link>
+            <Link href='/'>
+              <Image
+                className=''
+                src='/TextLogo.png'
+                alt='Mens Wearhouse Text Logo'
+                width={250}
+                height={30}
+                />
+            </Link>
             {/* Navigation Menu  */}
             <nav className='flex space-x-1 -m-2 text-sm'>
               <button className='hover:border-b-mwblack-600 px-2 py-2 hover:cursor-pointer hover:border-b'>
@@ -94,6 +93,6 @@ function Header() {
       </header>
     </>
   );
-}
+};
 
 export default Header;

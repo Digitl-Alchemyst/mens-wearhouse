@@ -1,6 +1,3 @@
-// ProductSlider.tsx
-
-import React from 'react';
 import ProductCard from '@/c/cards/ProductCard';
 
 interface ProductSliderProps {

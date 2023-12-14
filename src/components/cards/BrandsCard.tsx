@@ -1,7 +1,5 @@
-// ProductCard.tsx
-
 import Image from 'next/image';
-import React from 'react';
+import Link from 'next/link';
 
 interface BrandsSliderProps {
   id: number;
@@ -12,16 +10,15 @@ interface BrandsSliderProps {
 }
 
 const BrandsCard: React.FC<BrandsSliderProps> = ({
-  id,
   title,
   img,
   url,
   directory,
 }) => {
-  const imagePath = `/${directory}/${img}`; // Adjust the path based on your project structure
-
+  const imagePath = `/${directory}/${img}`;
+  const path = `/${directory}/${url}`;
   return (
-    <div className='w-78 space-y-4'>
+    <Link href={path} className='w-78 space-y-4'>
       <div className='flex w-full items-center justify-center rounded-full '>
         <Image
           src={imagePath}
@@ -30,12 +27,11 @@ const BrandsCard: React.FC<BrandsSliderProps> = ({
           height={375}
           className=' flex items-center justify-center rounded-full border border-mwnavy-400/30 bg-mwblack-100/60 shadow-md shadow-mwblack-600/40'
         />
-        {/* Add other details as needed */}
       </div>
       <div className='mt-3 flex flex-col items-center justify-center text-mwblack-500'>
         <h3 className='text-lg'>{title}</h3>
       </div>
-    </div>
+    </Link>
   );
 };
 

@@ -308,7 +308,7 @@ export const bestSellingOuterwear = [
   {
     id: 5,
     title: 'Joseph Abboud Modern Fit Peacoat',
-    img: 'TopCoatBlack.avif',
+    img: 'TopcoatBlack.avif',
     url: 'topcoatblack',
     price: '199.99',
   },

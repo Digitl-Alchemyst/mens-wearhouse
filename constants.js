@@ -351,3 +351,34 @@ export const bestSellingBoys = [
     price: '89.99',
   },
 ];
+
+export const fitGuides = [
+  {
+    id: 1,
+    title: 'Suit Fit Guide',
+    description: 'Bring confidence to evrey moment',
+    img: 'suit.avif',
+    url: 'suit',
+  },
+  {
+    id: 2,
+    title: 'Sport Coat Fit Guide',
+    description: 'Your most versatile layer',
+    img: 'coat.avif',
+    url: 'coat',
+  },
+  {
+    id: 3,
+    title: 'Dress Shirt Fit Guide',
+    description: 'Flatter you personality',
+    img: 'dress.avif',
+    url: 'dress',
+  },
+  {
+    id: 4,
+    title: 'Big & Tall Guide',
+    description: 'A wardrobe that meatures up',
+    img: 'bigtall.avif',
+    url: 'big-tall',
+  },
+]

@@ -9,7 +9,11 @@ import {
   bestSellingSweaters,
   bestSellingBlazers,
   bestSellingPants,
+  fitGuides,
+  brandsWeLove,
 } from '#/constants';
+import GuideSlider from '@/components/sliders/GuideSlider';
+import BrandsSlider from '@/components/sliders/BrandsSlider';
 
 const suits = bestSellingSuits;
 const shirts = bestSellingShirts;
@@ -18,6 +22,8 @@ const sweaters = bestSellingSweaters;
 const outerwear = bestSellingOuterwear;
 const boys = bestSellingBoys;
 const pants = bestSellingPants;
+const guides = fitGuides;
+const brands = brandsWeLove;
 
 export default function Home() {
   return (
@@ -52,6 +58,7 @@ export default function Home() {
       </h1>
       <ProductSlider products={shirts} directory='shirts' />
       <h1 className='mb-5 py-4 text-5xl text-mwblack-800'>Brands We Love</h1>
+      <BrandsSlider products={brands} directory='brands' />
       <h1 className='mb-5 py-4 text-2xl text-mwblack-800'>
         Best Selling Sports Coats & Blazers
       </h1>
@@ -66,10 +73,11 @@ export default function Home() {
       <ProductSlider products={outerwear} directory='outerwear' />
       <h1 className='mb-5 py-4 text-2xl text-mwblack-800'>Best Selling Boys</h1>
       <ProductSlider products={boys} directory='boys' />
-      <h1 className='mb-5 py-4 text-4xl text-mwblack-800'>
+      <h1 className='mb-5 mt-8 py-4 text-4xl text-mwblack-800'>
         Guides & Tips For Your Fit
       </h1>
-      <div className='flex w-full items-center justify-center space-x-22 rounded-sm bg-mwred-500 px-12 py-8 shadow-md shadow-mwblack-600/50'>
+      <GuideSlider products={guides} directory='guides' />
+      <div className='mt-4 flex w-full items-center justify-center space-x-22 rounded-sm bg-mwred-500 px-12 py-8 shadow-md shadow-mwblack-600/50'>
         <h1 className='text-6xl font-bold text-zinc-100'>
           UP TO 70% OFF ORIGINAL PRICES
         </h1>

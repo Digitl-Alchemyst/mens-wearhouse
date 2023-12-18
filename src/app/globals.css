@@ -74,3 +74,24 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+ .swiper-pagination-bullet {
+ background-color: #aaabac;
+}
+
+.swiper-button-next, .swiper-button-prev {
+ top: 50%;
+ transform: translateY(-50%);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after,
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+ color: #555659;
+}
+

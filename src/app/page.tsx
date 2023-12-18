@@ -29,14 +29,14 @@ export const revalidate = 180 * 20;
 
 export default function Home() {
   return (
-    <main className='mb-8 mt-8 flex w-full max-w-[1400px] flex-col justify-center '>
+    <main className='mb-8 mt-8 flex w-full max-w-[1600px] flex-col items-center justify-center'>
       {/* Categories  */}
       <section>
         <h1 className='mb-5 py-4 text-2xl text-mwblack-800'>All Clothing</h1>
         <CategorySlider />
       </section>
       {/* Large Ad  */}
-      <section className='mb-6 mt-8 flex w-full items-center justify-center rounded-sm border border-mwnavy-700/40 bg-mwblack-200/60 shadow-lg shadow-mwblack-800/40'>
+      <section className='mb-6 mt-8 flex  w-full max-w-[1400px] flex-col  items-center justify-center rounded-sm border border-mwnavy-700/40 bg-mwblack-200/60 shadow-lg shadow-mwblack-800/40'>
         <Image
           src='/AdImage.webp'
           alt=''

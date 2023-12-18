@@ -1,5 +1,11 @@
+'use client';
 import Link from 'next/link';
 import Image from 'next/image';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import { categorySlider } from '#/constants';
 import { MdArrowForward, MdArrowBack } from 'react-icons/md';
 
@@ -7,29 +13,40 @@ const categoryData = categorySlider;
 
 const CategorySlider = () => {
   return (
-    <div className='flex items-center justify-center space-x-2'>
-      <MdArrowBack className='h-8 w-8 text-mwblack-400' />
-      <div className='mt-2 flex max-w-[1400px] justify-start space-x-7 overflow-hidden scrollbar-hide'>
+    <div className='max-w-[1600px]'>
+      <Swiper
+        spaceBetween={-45}
+        slidesPerView={6}
+        navigation={true}
+        // pagination={{
+        //   clickable: true,
+        // }}
+        modules={[Navigation, Pagination]}
+        loop
+        onSlideChange={() => console.log('slide change')}
+        onSwiper={(swiper) => console.log(swiper)}
+      >
         {categoryData.map((category, id) => (
-          <Link
-            key={category.id}
-            href={category.url}
-            className='flex flex-col items-center space-y-3'
-          >
-            <div className='relative h-50 w-50 rounded-full'>
-              <Image
-                src={`/category/${category.img}`}
-                alt='FullCard Image'
-                fill
-                className='rounded-full border border-mwnavy-300/70 object-cover shadow-lg shadow-mwblack-800/40'
-              />
+          <SwiperSlide key={category.id}>
+            <div className='flex items-center justify-center'>
+              <Link
+                href={category.url}
+                className='flex flex-col items-center justify-center space-y-4'
+              >
+                <div className='relative h-50 w-50 rounded-full'>
+                  <Image
+                    src={`/category/${category.img}`}
+                    alt='FullCard Image'
+                    fill
+                    className='rounded-full border border-mwnavy-300/70 object-cover shadow-lg shadow-mwblack-800/40'
+                  />
+                </div>
+                <h5>{category.title}</h5>
+              </Link>
             </div>
-            <h5>{category.title}</h5>
-          </Link>
+          </SwiperSlide>
         ))}
-      </div>
-
-      <MdArrowForward className='h-8 w-8 text-mwblack-400' />
+      </Swiper>
     </div>
   );
 };

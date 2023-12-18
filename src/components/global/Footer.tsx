@@ -47,7 +47,7 @@ const Footer = () => {
           <h2 className='mb-4 text-lg font-bold'>Follow</h2>
           <div className='flex flex-col space-y-2'>
             <a
-              href='#'
+              href='https://www.twitter.com/menswearhouse'
               target='_blank'
               rel='noopener noreferrer'
               className='flex items-center gap-x-2'
@@ -56,7 +56,7 @@ const Footer = () => {
               Twitter
             </a>
             <a
-              href='#'
+              href='https://www.facebook.com//pages/Mens-Wearhouse/199928852452'
               target='_blank'
               rel='noopener noreferrer'
               className='flex items-center gap-x-2'
@@ -65,7 +65,7 @@ const Footer = () => {
               Facebook
             </a>
             <a
-              href='#'
+              href='https://www.instagram.com/MensWearhouse'
               target='_blank'
               rel='noopener noreferrer'
               className='flex items-center gap-x-2'
@@ -74,7 +74,7 @@ const Footer = () => {
               Instagram
             </a>
             <a
-              href='#'
+              href='https://www.youtube.com/user/MensWearhouse'
               target='_blank'
               rel='noopener noreferrer'
               className='flex items-center gap-x-2'
@@ -83,7 +83,7 @@ const Footer = () => {
               YouTube
             </a>
             <a
-              href='#'
+              href='https://www.pinterest.com/menswearhouse/'
               target='_blank'
               rel='noopener noreferrer'
               className='flex items-center gap-x-2'
@@ -92,7 +92,7 @@ const Footer = () => {
               Pinterest
             </a>
             <a
-              href='#'
+              href='https://www.tiktok.com/@menswearhouse?lang=en'
               target='_blank'
               rel='noopener noreferrer'
               className='flex items-center gap-x-2'
@@ -119,12 +119,11 @@ const Footer = () => {
               className='w-full rounded border border-mwblack-200 p-2 focus:outline-none'
             />
           </div>
-          <div className='flex px-4 py-2 space-x-1 items-center'>
-
-          <PiArrowBendLeftUpBold />
-          <p className=' text-white'>
-            Sign up for texts and get $20 off $100+ instantly!
-          </p>
+          <div className='flex items-center space-x-1 px-4 py-2'>
+            <PiArrowBendLeftUpBold />
+            <p className=' text-white'>
+              Sign up for texts and get $20 off $100+ instantly!
+            </p>
           </div>
         </div>
       </div>

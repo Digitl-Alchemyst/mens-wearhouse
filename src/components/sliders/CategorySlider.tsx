@@ -35,7 +35,7 @@ const CategorySlider = () => {
                     src={`/category/${category.img}`}
                     alt='FullCard Image'
                     fill
-                    className='rounded-full border border-mwnavy-300/70 object-cover shadow-lg shadow-mwblack-800/40'
+                    className='rounded-full border border-mwnavy-300/70 object-cover shadow-md shadow-mwblack-800/40'
                   />
                 </div>
                 <h5>{category.title}</h5>

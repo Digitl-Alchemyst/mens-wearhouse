@@ -94,3 +94,8 @@
  color: #555659;
 }
 
+.offerSwiper {
+ max-width: 500px;
+ max-height: 30px;
+ overflow: hidden;
+}

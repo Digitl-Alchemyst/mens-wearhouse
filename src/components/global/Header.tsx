@@ -7,6 +7,7 @@ import { LiaShoppingBagSolid } from 'react-icons/lia';
 import { SlMagnifier } from 'react-icons/sl';
 import { Input } from '../ui/input';
 import Link from 'next/link';
+import OffersSlider from '../sliders/OffersSlider';
 
 function Header() {
   return (
@@ -23,12 +24,7 @@ function Header() {
             <p className='text-mwblack-300 font-light'>Find a Store</p>
           </div>
           {/* Vertical Sales Scroller  */}
-          <div className='text-sm'>
-            <p className='text-mwblack-700'>
-              Clearance Up To 70% Off |{' '}
-              <span className='text-mwblack-800 font-bold'>Shop Now</span>
-            </p>
-          </div>
+          <OffersSlider />
           {/* Account Buttons  */}
           <div className='flex space-x-4'>
             <p>Account</p>

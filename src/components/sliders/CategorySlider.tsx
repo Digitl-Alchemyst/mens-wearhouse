@@ -13,15 +13,12 @@ const categoryData = categorySlider;
 
 const CategorySlider = () => {
   return (
-    <div className='max-w-[1600px]'>
+    <div className='max-w-[1500px]'>
       <Swiper
-        spaceBetween={-45}
+        spaceBetween={-40}
         slidesPerView={6}
         navigation={true}
-        // pagination={{
-        //   clickable: true,
-        // }}
-        modules={[Navigation, Pagination]}
+        modules={[Navigation]}
         loop
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}

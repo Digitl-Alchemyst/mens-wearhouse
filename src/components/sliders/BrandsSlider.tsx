@@ -12,7 +12,7 @@ interface BrandsSliderProps {
 
 const BrandsSlider: React.FC<BrandsSliderProps> = ({ brands, directory }) => {
   return (
-    <div className='mb-8 flex items-center justify-center space-x-12'>
+    <div className='mb-8 flex max-w-[1400px] items-center justify-center space-x-12'>
       {brands.map((brand) => (
         <BrandsCard key={brand.id} {...brand} directory={directory} />
       ))}

@@ -125,6 +125,41 @@ export const bestSellingSuits = [
     url: 'solid',
     price: '419.99',
   },
+  {
+    id: 6,
+    title: 'Michael Strahan Classic Fit Suit Separates Coat',
+    img: 'Blue.avif',
+    url: 'blue',
+    price: '229.99',
+  },
+  {
+    id: 7,
+    title: 'Lauren By Ralph Lauren Classic Fit Suit Separates Coat',
+    img: 'Gray.avif',
+    url: 'gray',
+    price: '314.99',
+  },
+  {
+    id: 8,
+    title: 'Pronto Uomo Modern Fit Suit Separates Coat',
+    img: 'Navy.avif',
+    url: 'navy',
+    price: '139.99',
+  },
+  {
+    id: 9,
+    title: 'Calvin Klein Slim Fit Suit Separates Coat',
+    img: 'Plaid.avif',
+    url: 'plaid',
+    price: '314.99',
+  },
+  {
+    id: 10,
+    title: 'Joseph Abboud Modern Fit Suit Separates Coat',
+    img: 'Solid.avif',
+    url: 'solid',
+    price: '419.99',
+  },
 ];
 
 export const bestSellingShirts = [
@@ -159,6 +194,42 @@ export const bestSellingShirts = [
   },
   {
     id: 5,
+    title: 'Michael Strahan Modern Fit Spread Collar Dress Shirt',
+    img: 'Strahan.avif',
+    url: 'strahn',
+    price: '33.74',
+  },
+  {
+    id: 6,
+    title: 'Joseph Abboud Modern Fit Twill Dress Shirt',
+    img: 'Abboud.avif',
+    url: 'abboud',
+    price: '44.99',
+  },
+  {
+    id: 7,
+    title: 'Awearness Kenneth Cole Slim Fit Performance Dress Shirt',
+    img: 'Cole.avif',
+    url: 'cole',
+    price: '44.99',
+  },
+  {
+    id: 8,
+    title: 'Calvin Klein Infinite Slim Fit Dress Shirt',
+    img: 'Klein.avif',
+    url: 'klein',
+    price: '44.99',
+  },
+  {
+    id: 9,
+    title:
+      'Lauren By Ralph Lauren UltraFlex Classic Fit Non-Iron Button-Down Collar Dress Shirt',
+    img: 'Lauren.avif',
+    url: 'lauren',
+    price: '19.99',
+  },
+  {
+    id: 10,
     title: 'Michael Strahan Modern Fit Spread Collar Dress Shirt',
     img: 'Strahan.avif',
     url: 'strahn',
@@ -236,6 +307,42 @@ export const bestSellingBlazers = [
     url: 'plaid',
     price: '149.99',
   },
+  {
+    id: 6,
+    title: 'Joseph Abboud Modern Fit Sport Coat',
+    img: 'Blue.avif',
+    url: 'blue',
+    price: '329.99',
+  },
+  {
+    id: 7,
+    title: 'Nautica Modern Fit Microsuede Sport Coat',
+    img: 'Chamois.avif',
+    url: 'chamois',
+    price: '119.99',
+  },
+  {
+    id: 8,
+    title: 'Pronto Uomo Modern Fit Notch Lapel Corduroy Sport Coat',
+    img: 'Brown.avif',
+    url: 'brown',
+    price: '149.99',
+  },
+  {
+    id: 9,
+    title:
+      'Pronto Uomo Modern Fit Sport Coat',
+    img: 'Olive.avif',
+    url: 'olive',
+    price: '149.99',
+  },
+  {
+    id: 10,
+    title: 'Pronto Uomo Modern Fit Sport Coat',
+    img: 'Plaid.avif',
+    url: 'plaid',
+    price: '149.99',
+  },
 ];
 
 export const bestSellingSweaters = [
@@ -269,6 +376,41 @@ export const bestSellingSweaters = [
   },
   {
     id: 5,
+    title: 'Joseph Abboud Modern Fit Turtleneck Merino Wool Sweater',
+    img: 'Black3.avif',
+    url: 'black3',
+    price: '34.99',
+  },
+  {
+    id: 6,
+    title: 'Joseph Abboud Modern Fit V-Neck Merino Wool Sweater',
+    img: 'Black1.avif',
+    url: 'black1',
+    price: '29.99',
+  },
+  {
+    id: 7,
+    title: 'Joseph Abboud Modern Fit Mock Neck Merino Wool Sweater',
+    img: 'Grey.avif',
+    url: 'grey',
+    price: '34.99',
+  },
+  {
+    id: 8,
+    title: 'Michael Strahan Modern Fit Square Pattern Crew Neck Sweater',
+    img: 'Black2.avif',
+    url: 'black2',
+    price: '44.99',
+  },
+  {
+    id: 9,
+    title: 'Joseph Abboud Merino Wool 1/4 Zip Sweater',
+    img: 'Russet.avif',
+    url: 'russet',
+    price: '34.99',
+  },
+  {
+    id: 10,
     title: 'Joseph Abboud Modern Fit Turtleneck Merino Wool Sweater',
     img: 'Black3.avif',
     url: 'black3',
@@ -312,6 +454,41 @@ export const bestSellingOuterwear = [
     url: 'topcoatblack',
     price: '199.99',
   },
+  {
+    id: 6,
+    title: 'Calvin Klein Modern Fit Topcoat',
+    img: 'CoatBlack.avif',
+    url: 'coatblack',
+    price: '349.99',
+  },
+  {
+    id: 7,
+    title: 'Michael Kors Classic Fit Peacoat',
+    img: 'CoatCamel.avif',
+    url: 'coatcamel',
+    price: '399.99',
+  },
+  {
+    id: 8,
+    title: 'Joseph Abboud Modern Fit Carcoat',
+    img: 'CoatGray.avif',
+    url: 'coatgray',
+    price: '299.99',
+  },
+  {
+    id: 9,
+    title: 'Joseph Abboud Modern Fit Car Coat',
+    img: 'JacketBlack.avif',
+    url: 'jacketblack',
+    price: '249.99',
+  },
+  {
+    id: 10,
+    title: 'Joseph Abboud Modern Fit Peacoat',
+    img: 'TopcoatBlack.avif',
+    url: 'topcoatblack',
+    price: '199.99',
+  },
 ];
 
 export const bestSellingBoys = [
@@ -345,6 +522,41 @@ export const bestSellingBoys = [
   },
   {
     id: 5,
+    title: 'Joseph Abboud Boys Suit Separates Jacket',
+    img: 'BlackSolid.avif',
+    url: 'blacksolid',
+    price: '89.99',
+  },
+  {
+    id: 6,
+    title: 'Michael Strahan Boys Suit Plaid Separates Jacket',
+    img: 'BlackPlaid.avif',
+    url: 'blackPlaid',
+    price: '99.99',
+  },
+  {
+    id: 7,
+    title: 'Joseph Abboud Boys Suit Separates Coat',
+    img: 'BluePostman.avif',
+    url: 'bluepostman',
+    price: '89.99',
+  },
+  {
+    id: 8,
+    title: 'Joseph Abboud Boys Suit Separates Jacket',
+    img: 'Navy.avif',
+    url: 'navy',
+    price: '89.99',
+  },
+  {
+    id: 9,
+    title: 'Kenneth Cole Reaction Boys Suit',
+    img: 'NavySolid.avif',
+    url: 'jacketblack',
+    price: '69.99',
+  },
+  {
+    id: 10,
     title: 'Joseph Abboud Boys Suit Separates Jacket',
     img: 'BlackSolid.avif',
     url: 'blacksolid',

@@ -32,11 +32,13 @@ export default function Home() {
     <main className='mb-8 mt-8 flex w-full max-w-[1600px] flex-col items-center justify-center'>
       {/* Categories  */}
       <section>
-        <h1 className='mb-5 py-4 text-2xl text-mwblack-800'>All Clothing</h1>
+        <h1 className='mx-auto mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
+          All Clothing
+        </h1>
         <CategorySlider />
       </section>
       {/* Large Ad  */}
-      <section className='mb-6 mt-8 flex  w-full max-w-[1400px] flex-col  items-center justify-center rounded-sm border border-mwnavy-700/40 bg-mwblack-200/60 shadow-lg shadow-mwblack-800/40'>
+      <section className='mb-6 mt-8 flex  w-full max-w-[1400px] items-center justify-center rounded-sm border border-mwnavy-700/40 bg-mwblack-200/60 shadow-lg shadow-mwblack-800/40'>
         <Image
           src='/AdImage.webp'
           alt=''
@@ -56,34 +58,36 @@ export default function Home() {
         </div>
       </section>
       {/* Best Selling Items  */}
-      <section>
-        <h1 className='mb-5 py-4 text-2xl text-mwblack-800'>
+      <section className='flex items-center flex-col'>
+        <h1 className='mx-auto mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
           Best Selling Suits
         </h1>
         <ProductSlider products={suits} directory='suits' />
-        <h1 className='mb-5 py-4 text-2xl text-mwblack-800'>
+        <h1 className='mx-auto mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
           Best Selling Shirts
         </h1>
         <ProductSlider products={shirts} directory='shirts' />
-        <h1 className='mb-5 py-4 text-5xl text-mwblack-800'>Brands We Love</h1>
+        <h1 className='mx-auto mb-5 max-w-[1400px] py-4 text-4xl text-mwblack-800'>
+          Brands We Love
+        </h1>
         <BrandsSlider brands={brands} directory='brands' />
-        <h1 className='mb-5 py-4 text-2xl text-mwblack-800'>
+        <h1 className='mx-auto mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
           Best Selling Sports Coats & Blazers
         </h1>
         <ProductSlider products={blazers} directory='blazers' />
-        <h1 className='mb-5 py-4 text-2xl text-mwblack-800'>
+        <h1 className='mx-auto mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
           Best Selling Sweaters
         </h1>
         <ProductSlider products={sweaters} directory='sweaters' />
-        <h1 className='mb-5 py-4 text-2xl text-mwblack-800'>
+        <h1 className='mx-auto mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
           Best Selling Outerwear
         </h1>
         <ProductSlider products={outerwear} directory='outerwear' />
-        <h1 className='mb-5 py-4 text-2xl text-mwblack-800'>
+        <h1 className='mx-auto mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
           Best Selling Boys
         </h1>
         <ProductSlider products={boys} directory='boys' />
-        <h1 className='mb-5 mt-8 py-4 text-4xl text-mwblack-800'>
+        <h1 className='mx-auto mb-5 mt-8 max-w-[1400px] py-4 text-4xl text-mwblack-800'>
           Guides & Tips For Your Fit
         </h1>
         <GuideSlider guides={guides} directory='guides' />

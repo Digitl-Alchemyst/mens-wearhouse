@@ -58,36 +58,36 @@ export default function Home() {
         </div>
       </section>
       {/* Best Selling Items  */}
-      <section className='flex items-center flex-col'>
-        <h1 className='mx-auto mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
+      <section className='flex items-center flex-col justify-start'>
+        <h1 className='w-full mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
           Best Selling Suits
         </h1>
         <ProductSlider products={suits} directory='suits' />
-        <h1 className='mx-auto mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
+        <h1 className='w-full mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
           Best Selling Shirts
         </h1>
         <ProductSlider products={shirts} directory='shirts' />
-        <h1 className='mx-auto mb-5 max-w-[1400px] py-4 text-4xl text-mwblack-800'>
+        <h1 className='w-full mb-5 max-w-[1400px] py-4 text-4xl text-mwblack-800'>
           Brands We Love
         </h1>
         <BrandsSlider brands={brands} directory='brands' />
-        <h1 className='mx-auto mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
+        <h1 className='w-full mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
           Best Selling Sports Coats & Blazers
         </h1>
         <ProductSlider products={blazers} directory='blazers' />
-        <h1 className='mx-auto mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
+        <h1 className='w-full mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
           Best Selling Sweaters
         </h1>
         <ProductSlider products={sweaters} directory='sweaters' />
-        <h1 className='mx-auto mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
+        <h1 className='w-full mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
           Best Selling Outerwear
         </h1>
         <ProductSlider products={outerwear} directory='outerwear' />
-        <h1 className='mx-auto mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
+        <h1 className='w-full mb-5 max-w-[1400px] py-4 text-2xl text-mwblack-800'>
           Best Selling Boys
         </h1>
         <ProductSlider products={boys} directory='boys' />
-        <h1 className='mx-auto mb-5 mt-8 max-w-[1400px] py-4 text-4xl text-mwblack-800'>
+        <h1 className='w-full mb-5 mt-8 max-w-[1400px] py-4 text-4xl text-mwblack-800'>
           Guides & Tips For Your Fit
         </h1>
         <GuideSlider guides={guides} directory='guides' />

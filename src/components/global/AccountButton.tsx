@@ -1,3 +1,11 @@
+import Link from 'next/link';
+import Image from 'next/image';
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from '@/components/ui/popover';
+import { Checkbox } from '@/components/ui/checkbox';
 import { GoPerson, GoTag } from 'react-icons/go';
 import {
   CiCreditCard2,
@@ -10,14 +18,6 @@ import { IoIosBowtie } from 'react-icons/io';
 import { IoTicketOutline } from 'react-icons/io5';
 import { PiSignOutLight } from 'react-icons/pi';
 import { MdArrowForwardIos } from 'react-icons/md';
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from '@/components/ui/popover';
-import { Checkbox } from '@/components/ui/checkbox';
-import Link from 'next/link';
-import Image from 'next/image';
 
 const accountMenu = [
   {
@@ -63,7 +63,7 @@ function AccountButton() {
           <GoPerson className='h-5 w-5' />
         </div>
       </PopoverTrigger>
-      <PopoverContent className='fixed -left-18 -top-20 w-[500px] overflow-y-auto bg-zinc-100 p-5'>
+      <PopoverContent className='relative -top-2 left-24 w-[500px] overflow-y-auto bg-zinc-100 p-5'>
         {/* Logged Out Content */}
         <div className='flex justify-between border-b border-mwblack-100 px-4 py-3 pb-4'>
           <h3 className='text-sm font-light'>SIGN IN / CREATE ACCOUNT</h3>
@@ -141,36 +141,37 @@ function AccountButton() {
           </div>
         </div>
         {/* Perfect Fit Program  */}
-        <div className='space-y-8 bg-mwnavy-500 px-5 py-4 text-mwblack-100'>
+        <div className='space-y-8 rounded-sm bg-mwnavy-500 px-5 py-4 text-mwblack-100 shadow-md shadow-mwblack-700/80'>
           <div className=''>
             <Image src='/perfectfit.png' alt='' width={250} height={75} />
           </div>
           <div className='flex flex-col space-y-2 text-sm'>
-            <div className='flex space-x-3 items-center'>
+            <div className='flex items-center space-x-3'>
               <IoTicketOutline className='h-6 w-6' />
               <p>$50 reward for every $500 you spend</p>
             </div>
-            <div className='flex space-x-3 items-center'>
+            <div className='flex items-center space-x-3'>
               <GoTag className='h-6 w-6' />
               <p>$40 off select tuxedo and suit rentals</p>
             </div>
-            <div className='flex space-x-3 items-center'>
+            <div className='flex items-center space-x-3'>
               <CiGift className='h-6 w-6' />
               <p>A special birthday offer just for you</p>
             </div>
-            <div className='flex space-x-3 items-center'>
+            <div className='flex items-center space-x-3'>
               <CiDeliveryTruck className='h-6 w-6' />
               <p>Free shipping on every online order, no minimum</p>
             </div>
-            <div className='flex space-x-3 items-center'>
+            <div className='flex items-center space-x-3'>
               <GoPerson className='h-6 w-6' />
               <p>Exclusive offers for members</p>
             </div>
           </div>
         </div>
-
+      </PopoverContent>
         {/* Logged In Content */}
-        {/* {accountMenu.map((menuItem, index) => (
+      {/* <PopoverContent>
+        {accountMenu.map((menuItem, index) => (
           <div
             key={index}
             className={`flex justify-between space-x-2 px-2 py-3 ${
@@ -183,8 +184,8 @@ function AccountButton() {
             </div>
             <MdArrowForwardIos className='h-5 w-5' />
           </div>
-        ))} */}
-      </PopoverContent>
+        ))}
+      </PopoverContent> */}
     </Popover>
   );
 }

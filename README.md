@@ -9,7 +9,7 @@
  </p>
 
 <p align="center">
-  This is a clone of the Google shopping app created in Next.js with Tailwind CSS & Typescript. It uses OxyLabs Ecommerce Scrapper. It is built with Tremor Libraries & uses React Skeleton Loading while utilizing Next.js Server Caching
+  This is a clone of the Men's Wearhouse Webapp created in Next.js with Tailwind CSS & Typescript.
   <br />
   <br />
   <a href="https://github.com/vercel/next.js">

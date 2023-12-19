@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import HolidayGiftGuide from '../seasonal/HolidayGiftGuide';
 import { RiMapPin2Line } from 'react-icons/ri';
-import { GoPerson, GoTag } from 'react-icons/go';
-import { FaRegHeart } from 'react-icons/fa';
-import { LiaShoppingBagSolid } from 'react-icons/lia';
+import { GoTag } from 'react-icons/go';
+
 import { SlMagnifier } from 'react-icons/sl';
 import { Input } from '../ui/input';
 import Link from 'next/link';
 import OffersSlider from '../sliders/OffersSlider';
+import QuickLinks from './QuickLinks';
 
 function Header() {
   return (
@@ -16,6 +16,7 @@ function Header() {
 
       {/* Main Header  */}
       <header className='flex w-full max-w-[1350px] flex-col items-center justify-center space-y-3 '>
+
         {/* Store Locator & Account  */}
         <div className='b-4 border-mwblack-300/70 flex w-full items-center justify-between border-b py-2 px-2'>
           {/* Store Locator  */}
@@ -25,13 +26,9 @@ function Header() {
           </div>
           {/* Vertical Sales Scroller  */}
           <OffersSlider />
-          {/* Account Buttons  */}
-          <div className='flex space-x-4'>
-            <p>Account</p>
-            <GoPerson className='h-5 w-5' />
-            <FaRegHeart className='h-5 w-5' />
-            <LiaShoppingBagSolid className='h-5 w-5' />
-          </div>
+          {/* Quick Links Buttons  */}
+          <QuickLinks />
+          
         </div>
 
         {/* Nav & Search */}

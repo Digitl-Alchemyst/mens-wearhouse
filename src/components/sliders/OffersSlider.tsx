@@ -42,8 +42,8 @@ function OffersSlider() {
         {offers.map((offer, id) => (
           <SwiperSlide key={offer.id}>
             <p className='flex items-center justify-center text-mwblack-700'>
-              {offer.offer} |{' '}
-              <span className='font-bold text-mwblack-800'>{offer.cta}</span>
+              {offer.offer} | {' '}
+              <span className='font-bold text-mwblack-800 ml-1'>{offer.cta}</span>
             </p>
           </SwiperSlide>
         ))}

@@ -28,7 +28,7 @@
 
 <h3><ul><b>Project Demo</b></ul></h3>
 
-<a href="https://mens-wearhouse.vercel.app/" target="blank"><img align="center" src="https://mens-wearhouse.vercel.app/_next/image/?url=%2FTextLogo.png&w=256&q=75" alt="logo" height="85" width="250" /></a>
+<a href="https://mens-wearhouse.vercel.app/" target="blank"><img align="center" src="https://mens-wearhouse.vercel.app/_next/image/?url=%2FTextLogo.png&w=256&q=75" alt="logo" height="55" width="250" /></a>
 
 [Demo Video](https://www.youtube.com/@DigitlAlchemyst)
 

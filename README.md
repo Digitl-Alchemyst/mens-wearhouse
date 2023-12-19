@@ -52,6 +52,17 @@ Adding Features in Free Time
 
 <br>
 
+<h3><ul><b>ToDos</b></ul></h3>
+
+        Skeleton Loading <br>
+        Map box Store Locator <br>
+        Dynamic Product Page <br>
+        Caching & Revalidation <br>
+<h3><ul><b>Libraries & Plugins to Implement</b></ul></h3>
+
+        🗺️ Mapbox<br>
+        💀 React Skeleton Loading <br>
+
 <h3><ul><b>How to use</b></ul></h3>
 
 ## Getting Started

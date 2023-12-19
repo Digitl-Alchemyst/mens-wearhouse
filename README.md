@@ -56,6 +56,7 @@ Adding Features in Free Time
 
         Skeleton Loading <br>
         Map box Store Locator <br>
+        Authentication with Appwrite <br>
         Dynamic Product Page <br>
         Caching & Revalidation <br>
 <h3><ul><b>Libraries & Plugins to Implement</b></ul></h3>

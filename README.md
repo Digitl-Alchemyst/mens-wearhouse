@@ -59,6 +59,7 @@ Adding Features in Free Time
         Authentication with Appwrite <br>
         Dynamic Product Page <br>
         Caching & Revalidation <br>
+        Responsive UI <br>
 <h3><ul><b>Libraries & Plugins to Implement</b></ul></h3>
 
         🗺️ Mapbox<br>

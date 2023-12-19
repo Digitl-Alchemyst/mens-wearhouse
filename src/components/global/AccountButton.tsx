@@ -65,7 +65,7 @@ function AccountButton() {
       </PopoverTrigger>
       <PopoverContent className='relative -top-2 left-24 w-[500px] overflow-y-auto bg-zinc-100 p-5'>
         {/* Logged Out Content */}
-        <div className='flex justify-between border-b border-mwblack-100 px-4 py-3 pb-4'>
+        <div className='flex justify-between border-b border-mwblack-100 items-center px-4 py-3 pb-4'>
           <h3 className='text-sm font-light'>SIGN IN / CREATE ACCOUNT</h3>
           <button>X</button>
         </div>

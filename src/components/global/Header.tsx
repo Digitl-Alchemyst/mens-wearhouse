@@ -8,6 +8,8 @@ import { Input } from '../ui/input';
 import Link from 'next/link';
 import OffersSlider from '../sliders/OffersSlider';
 import QuickLinks from './QuickLinks';
+import StoreLocator from './StoreLocator';
+import SearchBar from './SearchBar';
 
 function Header() {
   return (
@@ -20,10 +22,7 @@ function Header() {
         {/* Store Locator & Account  */}
         <div className='b-4 border-mwblack-300/70 flex w-full items-center justify-between border-b py-2 px-2'>
           {/* Store Locator  */}
-          <div className='flex items-center space-x-2'>
-            <RiMapPin2Line className='h-5 w-5' />
-            <p className='text-mwblack-300 font-light'>Find a Store</p>
-          </div>
+          <StoreLocator />
           {/* Vertical Sales Scroller  */}
           <OffersSlider />
           {/* Quick Links Buttons  */}
@@ -75,13 +74,7 @@ function Header() {
             </nav>
           </div>
           {/* Search  Bar*/}
-          <div className='flex items-center space-x-2'>
-            <Input
-              className='bg-mwblack-200/30 h-13 w-62'
-              placeholder='What are you looking for?'
-            />
-            <SlMagnifier className='h-6 w-6' />
-          </div>
+          <SearchBar />
         </div>
       </header>
     </>

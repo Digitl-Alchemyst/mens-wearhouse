@@ -60,6 +60,9 @@ Adding Features in Free Time
         Dynamic Product Page <br>
         Caching & Revalidation <br>
         Responsive UI <br>
+        Search Page Filter Drop Downs<br>
+        Search Page Card Toggle<br>
+        
 <h3><ul><b>Libraries & Plugins to Implement</b></ul></h3>
 
         🗺️ Mapbox<br>

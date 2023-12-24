@@ -1,6 +1,4 @@
 import GoogleMap from '@/components/GoogleMap';
-import MapBox from '@/components/MapBox';
-import MapGL from '@/components/MapGL';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
@@ -17,6 +15,8 @@ type Props = {
 function SearchPage({ params: { loc } }: Props) {
   if (!loc) notFound();
 
+    const decodedLoc = decodeURI(loc);
+
   return (
     <main className='mb-8 mt-8 flex w-full max-w-[1400px] flex-col space-y-2'>
       {/* Search Header  */}
@@ -30,10 +30,10 @@ function SearchPage({ params: { loc } }: Props) {
             Store Locator
           </Link>
           <p>{'>'}</p>
-          <p>{loc}</p>
+          <p>{decodedLoc}</p>
         </div>
         <div className='flex items-end space-x-2 py-2'>
-          <h1 className='text-4xl'>Stores Near {loc}</h1>
+          <h1 className='text-4xl'>Stores Near {decodedLoc}</h1>
           <p className='font-light'>(# of Stores)</p>
         </div>
       </section>
@@ -44,7 +44,9 @@ function SearchPage({ params: { loc } }: Props) {
         <div>
           {/* Banner  */}
           <div className='bg-mwnavy-500'>
-            <h1 className='text-5xl font-semibold text-zinc-100 py-10 px-4 rounded-sm shadow-sm'>Find a Men&apos;s Wearhouse Store Near You</h1>
+            <h1 className='rounded-sm px-4 py-10 text-5xl font-semibold text-zinc-100 shadow-sm'>
+              Find a Men&apos;s Wearhouse Store Near You
+            </h1>
           </div>
           {/* Map */}
           <GoogleMap />

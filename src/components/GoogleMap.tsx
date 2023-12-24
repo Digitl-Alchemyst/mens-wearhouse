@@ -30,22 +30,23 @@ function GoogleMap() {
       const mapOptions: google.maps.MapOptions = {
         center: center,
         zoom: 17,
-        mapId: 'STORE_LOCATIONS'
-      }
+        mapId: 'STORE_LOCATIONS',
+      };
 
       const map = new Map(mapRef.current as HTMLDivElement, mapOptions);
+
 
       const marker = new Marker({
         map: map,
         position: center,
       })
-      
+
     };
 
     initMap();
   }, []);
 
-  return <div className='h-[800px] w-[1400px]' ref={mapRef} />
+  return <div className='h-[800px] w-[1400px] border border-mwnavy-500/50 rounded-sm shadow-md shadow-mwblack-700/40 drop-shadow-sm' ref={mapRef} />
 
 
 }

@@ -1,60 +1,60 @@
 /* eslint-disable import/prefer-default-export */
 export const categorySlider = [
-    {
-        id: 1,
-        title: 'Suits',
-        img: 'Suits.jpg',
-        url: '/suits',
-    },
-    {
-        id: 2,
-        title: 'Accessories',
-        img: 'Accessories.jpeg',
-        url: '/acessories',
-    },
-    {
-        id: 3,
-        title: 'Boys',
-        img: 'Boys.jpg',
-        url: '/boys',
-    },
-    {
-        id: 4,
-        title: 'Casual Shirts',
-        img: 'Casual.webp',
-        url: '/casual',
-    },
-    {
-        id: 5,
-        title: 'Dress Shirts',
-        img: 'Dress.jpg',
-        url: '/dress',
-    },
-    {
-        id: 6,
-        title: 'Jeans & Shorts',
-        img: 'Jeans.webp',
-        url: '/jeans',
-    },
-    {
-        id: 7,
-        title: 'Pants',
-        img: 'Slacks.jfif',
-        url: '/slacks',
-    },
-    {
-        id: 8,
-        title: 'Sports Coats & Dinner Jackes',
-        img: 'Jacket.webp',
-        url: '/jacket',
-    },
-    {
-        id: 9,
-        title: 'Ties',
-        img: 'Tie.webp',
-        url: '/tie',
-    },
-]
+  {
+    id: 1,
+    title: 'Suits',
+    img: 'Suits.jpg',
+    url: '/suits',
+  },
+  {
+    id: 2,
+    title: 'Accessories',
+    img: 'Accessories.jpeg',
+    url: '/acessories',
+  },
+  {
+    id: 3,
+    title: 'Boys',
+    img: 'Boys.jpg',
+    url: '/boys',
+  },
+  {
+    id: 4,
+    title: 'Casual Shirts',
+    img: 'Casual.webp',
+    url: '/casual',
+  },
+  {
+    id: 5,
+    title: 'Dress Shirts',
+    img: 'Dress.jpg',
+    url: '/dress',
+  },
+  {
+    id: 6,
+    title: 'Jeans & Shorts',
+    img: 'Jeans.webp',
+    url: '/jeans',
+  },
+  {
+    id: 7,
+    title: 'Pants',
+    img: 'Slacks.jfif',
+    url: '/slacks',
+  },
+  {
+    id: 8,
+    title: 'Sports Coats & Dinner Jackes',
+    img: 'Jacket.webp',
+    url: '/jacket',
+  },
+  {
+    id: 9,
+    title: 'Ties',
+    img: 'Tie.webp',
+    url: '/tie',
+  },
+];
 
 export const brandsWeLove = [
   {
@@ -294,8 +294,7 @@ export const bestSellingBlazers = [
   },
   {
     id: 4,
-    title:
-      'Pronto Uomo Modern Fit Sport Coat',
+    title: 'Pronto Uomo Modern Fit Sport Coat',
     img: 'Olive.avif',
     url: 'olive',
     price: '149.99',
@@ -330,8 +329,7 @@ export const bestSellingBlazers = [
   },
   {
     id: 9,
-    title:
-      'Pronto Uomo Modern Fit Sport Coat',
+    title: 'Pronto Uomo Modern Fit Sport Coat',
     img: 'Olive.avif',
     url: 'olive',
     price: '149.99',
@@ -593,4 +591,117 @@ export const fitGuides = [
     img: 'bigtall.avif',
     url: 'big-tall',
   },
-]
+];
+
+export const styleGuide = [
+  {
+    id: 1,
+    title: 'Clock In And Stand out',
+    heading: 'Get ready for work with a wardrobe that means business.',
+    mainImg: 'work.webp',
+    outfits: [
+      {
+        id: 1,
+        img: 'collage1.webp',
+        sweater: {
+          img: 'sweater1.webp',
+          title: 'Joseph Abboud Modern Fit 1/4 Zip Sweater',
+          price: '$69.99',
+        },
+        coat: {
+          img: 'coat1.webp',
+          title: 'Joseph Abboud Modern Fit Sport Coat',
+          price: '299.99',
+        },
+        shirt: {
+          img: 'shirt1.webp',
+          title: 'Joseph Abboud Modern Fit Sport Shirt',
+          price: '59.99',
+        },
+        pants: {
+          img: 'pants1.webp',
+          title: 'Joseph Abboud Coal Wash Athletic Fit Jeans',
+          price: '59.99',
+        },
+        shoes: {
+          img: 'shoes1.webp',
+          title: 'Joseph Abboud Powelton Cap Toe Boots',
+          price: '149.99',
+        },
+        accessory: {
+          img: 'socks1.webp',
+          title: 'Pronto Uomo Flecked Boot Socks',
+          price: '14.99',
+        },
+      },
+      {
+        id: 2,
+        img: 'collage2.webp',
+        sweater: {
+          img: 'sweater1.webp',
+          title: 'Joseph Abboud Modern Fit 1/4 Zip Sweater',
+          price: '$69.99',
+        },
+        coat: {
+          img: 'coat1.webp',
+          title: 'Joseph Abboud Modern Fit Sport Coat',
+          price: '299.99',
+        },
+        shirt: {
+          img: 'shirt1.webp',
+          title: 'Joseph Abboud Modern Fit Sport Shirt',
+          price: '59.99',
+        },
+        pants: {
+          img: 'pants1.webp',
+          title: 'Joseph Abboud Coal Wash Athletic Fit Jeans',
+          price: '59.99',
+        },
+        shoes: {
+          img: 'shoes1.webp',
+          title: 'Joseph Abboud Powelton Cap Toe Boots',
+          price: '149.99',
+        },
+        accessory: {
+          img: 'socks1.webp',
+          title: 'Pronto Uomo Flecked Boot Socks',
+          price: '14.99',
+        },
+      },
+      {
+        id: 3,
+        img: 'collage3.webp',
+        sweater: {
+          img: 'sweater1.webp',
+          title: 'Joseph Abboud Modern Fit 1/4 Zip Sweater',
+          price: '$69.99',
+        },
+        coat: {
+          img: 'coat1.webp',
+          title: 'Joseph Abboud Modern Fit Sport Coat',
+          price: '299.99',
+        },
+        shirt: {
+          img: 'shirt1.webp',
+          title: 'Joseph Abboud Modern Fit Sport Shirt',
+          price: '59.99',
+        },
+        pants: {
+          img: 'pants1.webp',
+          title: 'Joseph Abboud Coal Wash Athletic Fit Jeans',
+          price: '59.99',
+        },
+        shoes: {
+          img: 'shoes1.webp',
+          title: 'Joseph Abboud Powelton Cap Toe Boots',
+          price: '149.99',
+        },
+        accessory: {
+          img: 'socks1.webp',
+          title: 'Pronto Uomo Flecked Boot Socks',
+          price: '14.99',
+        },
+      },
+    ],
+  },
+];

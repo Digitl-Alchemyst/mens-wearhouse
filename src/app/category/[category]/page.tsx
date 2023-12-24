@@ -46,6 +46,7 @@ function SearchPage({ params: { category } }: Props) {
 
       {/* Filters & Sorting  */}
       <Filters />
+      
       <div className='border-b border-mwblack-400/40 pt-6' />
 
       {/* Search Results  */}

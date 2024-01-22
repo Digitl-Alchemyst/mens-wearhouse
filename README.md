@@ -41,7 +41,7 @@
 <h3><ul><b>Libraries & Plugins</b></ul></h3>
         🌠 SwiperJS<br>
         📁 ShadCN UI Library<br>
-        🗺️ Mapbox<br>
+        🗺️ Mapbox GL<br>
         ✨ Zod<br>
         💀 React Skeleton Loading <br>
 </h4>
@@ -54,30 +54,23 @@ Adding Features in Free Time
 
 <h3><ul><b>ToDos</b></ul></h3>
 
-        Skeleton Loading <br>
-        Map box Store Locator <br>
-        Authentication with Appwrite <br>
-        Dynamic Product Page <br>
-        Caching & Revalidation <br>
-        Responsive UI <br>
-        Search Page Filter Drop Downs<br>
-        Search Page Card Toggle<br>
+    [ ] Responsive UI <br>
+    [O] Caching & Revalidation <br>
+    [O] Map box Store Locator <br>
+    [ ] Skeleton Loading <br>
+    [ ] Dynamic Product Page <br>
+    [ ] Search Page Filter Drop Downs<br>
+    [ ] Search Page Card Toggle<br>
+    [ ] Authentication with Appwrite <br>
         
 <h3><ul><b>Libraries & Plugins to Implement</b></ul></h3>
 
-        🗺️ Mapbox<br>
-        💀 React Skeleton Loading <br>
+    🗺️ Mapbox<br>
+    💀 React Skeleton Loading <br>
 
 <h3><ul><b>How to use</b></ul></h3>
 
 ## Getting Started
-
-## **Dependencies**
-
-    Next.js 14.0.4
-    Tailwind CSS 3.3.2
-    Typescript 5.1.6
-    React Skeleton Loading 3.1.1
 
 ### Install Dependencies
 
@@ -91,5 +84,24 @@ The app will start on [http://localhost:3000](http://localhost:3000) in your bro
 
 ### Deploy
 
+Delop to your testing enviroment on vercel
+
     vercel
+
+Deploy to your production enviroment on vercel
+
     vercel --prod
+
+### Formatting and Checks
+
+Run ESLint
+
+    npm run lint
+
+Prettier Code Check
+
+    prettier --check.
+
+Prettier Code Format
+
+    prettier --write.

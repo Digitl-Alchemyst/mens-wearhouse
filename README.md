@@ -9,7 +9,7 @@
  </p>
 
 <p align="center">
-  This is a clone of the Men's Wearhouse Webapp created in Next.js with Tailwind CSS & Typescript.
+  This is a clone of the Men's Wearhouse Webapp created in Next.js with Tailwind CSS & Typescript. It has small UI/UX improvements as well as some feature improvements over the original website. It has been optimized to improve speed over the original website. I created this project between rounds 1 & 2 interviews for a job interview wherein the first client I would be dealing with would be Men's Wearhouse and these are the improvements that would be desired for the project.
   <br />
   <br />
   <a href="https://github.com/vercel/next.js">

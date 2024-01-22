@@ -44,6 +44,12 @@
         🗺️ Mapbox GL<br>
         ✨ Zod<br>
         💀 React Skeleton Loading <br>
+<h3><ul><b>Concepts</b></ul></h3>
+        Dynamic Pages & Routing<br>
+        Conditional Rendering<br>
+        Data Caching<br>
+        Server Side Rendering<br>
+        Image Optimization <br>
 </h4>
 
 <h3><ul><b>Project State</b></ul></h3>
